@@ -272,6 +272,17 @@
       transform: translateY(-3px);
   }
 
+  .btn-discord {
+      background: rgba(88, 101, 242, 0.15);
+      color: #7289da;
+      border: 2px solid rgba(88, 101, 242, 0.4);
+  }
+
+  .btn-discord:hover {
+      background: rgba(88, 101, 242, 0.28);
+      transform: translateY(-3px);
+  }
+
   /* --- SECTIONS --- */
   section {
       padding: 90px 24px;
