@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GamesOnFire - Minecraft Server</title>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;600;700;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/jpg" href="favicon.jpg">
+</head>
+
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <div class="nav-logo">🔥 GamesOnFire</div>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#vote">Vote</a></li>
+      <li><a href="#staff">Staff</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="embers" id="embers"></div>
+    <div class="hero-tag">⚔️ Minecraft Network</div>
+    <h1 class="hero-title">GamesOnFire</h1>
+    <p class="hero-subtitle">Where Every Game Ignites! 🔥</p>
+
+    <div class="ip-box" onclick="copyIP()">
+      <span class="ip-label">Server IP</span>
+      <span class="ip-text">play.gofnetwork.online</span>
+      <span class="copy-icon">📋</span>
+      <span class="copied-msg" id="copiedMsg">Copied!</span>
+    </div>
+
+    <div class="hero-btns">
+      <a href="#about" class="btn btn-primary">Explore Server</a>
+      <a href="#vote" class="btn btn-outline">Vote for Us</a>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="section-inner">
+      <div class="reveal">
+        <p class="section-label">🎮 What We Offer</p>
+        <h2 class="section-title">About the Server</h2>
+        <p class="section-desc">GamesOnFire is a thriving Minecraft network packed with exciting game modes, a friendly
+          community, and non-stop action. Jump in and feel the heat!</p>
+      </div>
+      <div class="about-grid">
+        <div class="about-card reveal">
+          <div class="card-icon">⚔️</div>
+          <div class="card-title">PvP Arenas</div>
+          <p class="card-text">Intense PvP battles with ranked matchmaking, custom kits, and seasonal tournaments. Prove
+            you're the best!</p>
+        </div>
+        <div class="about-card reveal">
+          <div class="card-icon">🏰</div>
+          <div class="card-title">Factions</div>
+          <p class="card-text">Build your empire, raid enemies, form alliances, and dominate the leaderboards with your
+            crew.</p>
+        </div>
+        <div class="about-card reveal">
+          <div class="card-icon">🎲</div>
+          <div class="card-title">Mini-Games</div>
+          <p class="card-text">Bedwars, SkyWars, Murder Mystery and more — there's always something new to play with
+            friends!</p>
+        </div>
+        <div class="about-card reveal">
+          <div class="card-icon">🌍</div>
+          <div class="card-title">Survival SMP</div>
+          <p class="card-text">A lively survival world with custom enchantments, player shops, quests, and monthly world
+            events.</p>
+        </div>
+        <div class="about-card reveal">
+          <div class="card-icon">💎</div>
+          <div class="card-title">Custom Ranks</div>
+          <p class="card-text">Earn or purchase exclusive ranks with unique perks, cosmetics, and in-game advantages.
+          </p>
+        </div>
+        <div class="about-card reveal">
+          <div class="card-icon">🔒</div>
+          <div class="card-title">Anti-Cheat</div>
+          <p class="card-text">Advanced anti-cheat systems and an active moderation team keep gameplay fair and fun for
+            everyone.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- VOTE -->
+  <section id="vote">
+    <div class="section-inner">
+      <div class="reveal">
+        <p class="section-label">🗳️ Support Us</p>
+        <h2 class="section-title">Vote & Earn Rewards</h2>
+        <p class="section-desc">Voting helps GamesOnFire grow and rewards YOU with amazing in-game goodies. Vote daily
+          across all sites!</p>
+      </div>
+      <div class="vote-info reveal">
+        <div class="vote-info-icon">🎁</div>
+        <p class="vote-info-text"><strong>Each vote earns you:</strong> Vote Keys, in-game currency, XP boosts, and
+          exclusive cosmetics. Vote on all sites daily for <strong>bonus multiplier rewards!</strong></p>
+      </div>
+      <div class="vote-grid" style="margin-top:32px;">
+        <a href="https://minecraft-server-list.com" target="_blank" class="vote-card reveal">
+          <div class="vote-num">#1</div>
+          <div class="vote-site">MC-Server-List</div>
+          <div class="vote-reward">Vote Key + $500 in-game</div>
+          <span class="vote-cta">Vote Now →</span>
+        </a>
+        <a href="https://minecraft-mp.com" target="_blank" class="vote-card reveal">
+          <div class="vote-num">#2</div>
+          <div class="vote-site">Minecraft-MP</div>
+          <div class="vote-reward">2x XP Boost (1 hour)</div>
+          <span class="vote-cta">Vote Now →</span>
+        </a>
+        <a href="https://topminecraftservers.org" target="_blank" class="vote-card reveal">
+          <div class="vote-num">#3</div>
+          <div class="vote-site">TopMCServers</div>
+          <div class="vote-reward">Rare Crate Key</div>
+          <span class="vote-cta">Vote Now →</span>
+        </a>
+        <a href="https://minecraftservers.org" target="_blank" class="vote-card reveal">
+          <div class="vote-num">#4</div>
+          <div class="vote-site">MCServers.org</div>
+          <div class="vote-reward">Vote Key + Special Title</div>
+          <span class="vote-cta">Vote Now →</span>
+        </a>
+        <a href="https://minecraft.buzz" target="_blank" class="vote-card reveal">
+          <div class="vote-num">#5</div>
+          <div class="vote-site">Minecraft.Buzz</div>
+          <div class="vote-reward">$250 in-game cash</div>
+          <span class="vote-cta">Vote Now →</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- STAFF -->
+  <section id="staff">
+    <div class="section-inner">
+      <div class="reveal">
+        <p class="section-label">👥 The Team</p>
+        <h2 class="section-title">Meet Our Staff</h2>
+        <p class="section-desc">Our dedicated team works hard to keep GamesOnFire running smoothly and the community
+          thriving. Say hi to the crew!</p>
+      </div>
+      <div class="staff-grid">
+        <div class="staff-card reveal">
+          <div class="staff-avatar">👑</div>
+          <div class="staff-name">FireChief</div>
+          <span class="staff-role role-owner">Owner</span>
+          <p class="staff-bio">Founder of GamesOnFire. Making the dream burn bright since day one.</p>
+        </div>
+        <div class="staff-card reveal">
+          <div class="staff-avatar">🛡️</div>
+          <div class="staff-name">BlazeMaster</div>
+          <span class="staff-role role-admin">Admin</span>
+          <p class="staff-bio">Manages server operations, events, and keeps everything running hot.</p>
+        </div>
+        <div class="staff-card reveal">
+          <div class="staff-avatar">🔥</div>
+          <div class="staff-name">EmberX</div>
+          <span class="staff-role role-admin">Admin</span>
+          <p class="staff-bio">Oversees the build team and server development. Pixel perfectionist.</p>
+        </div>
+        <div class="staff-card reveal">
+          <div class="staff-avatar">⚔️</div>
+          <div class="staff-name">SparkyMod</div>
+          <span class="staff-role role-mod">Moderator</span>
+          <p class="staff-bio">Keeping the chat clean and the gameplay fair since 2023.</p>
+        </div>
+        <div class="staff-card reveal">
+          <div class="staff-avatar">🌟</div>
+          <div class="staff-name">NovaMod</div>
+          <span class="staff-role role-mod">Moderator</span>
+          <p class="staff-bio">Your go-to mod for questions, disputes, and good vibes.</p>
+        </div>
+        <div class="staff-card reveal">
+          <div class="staff-avatar">🤝</div>
+          <div class="staff-name">KindleHelper</div>
+          <span class="staff-role role-helper">Helper</span>
+          <p class="staff-bio">Always happy to lend a hand to new players joining the fire.</p>
+        </div>
+        <div class="staff-card reveal">
+          <div class="staff-avatar">🎮</div>
+          <div class="staff-name">ArcadeHelper</div>
+          <span class="staff-role role-helper">Helper</span>
+          <p class="staff-bio">Mini-games specialist and community event organizer extraordinaire.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-logo">🔥 GamesOnFire</div>
+      <div class="footer-ip">play.gofnetwork.online</div>
+
+      <div class="footer-socials">
+        <a href="https://discord.gg/gofnetwork" target="_blank" class="social-btn social-discord">
+          <span class="social-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994a.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03z" />
+            </svg>
+          </span>
+          Discord
+        </a>
+        <a href="https://instagram.com/gofnetwork" target="_blank" class="social-btn social-instagram">
+          <span class="social-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z" />
+            </svg>
+          </span>
+          Instagram
+        </a>
+      </div>
+
+      <div class="footer-links">
+        <a href="#about">About</a>
+        <a href="#vote">Vote</a>
+        <a href="#staff">Staff</a>
+      </div>
+
+      <p class="footer-copy">© 2025 <span>GamesOnFire Network</span>. Not affiliated with Mojang or Microsoft.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Floating embers
+    const container = document.getElementById('embers');
+    const colors = ['#ff4500', '#ff7300', '#ffb347', '#ffe066', '#ff6a00'];
+    for (let i = 0; i < 30; i++) {
+      const e = document.createElement('div');
+      e.classList.add('ember');
+      const size = Math.random() * 6 + 2;
+      e.style.cssText = `
+      width:${size}px; height:${size}px;
+      background:${colors[Math.floor(Math.random() * colors.length)]};
+      left:${Math.random() * 100}%;
+      animation-duration:${Math.random() * 8 + 6}s;
+      animation-delay:${Math.random() * 8}s;
+    `;
+      container.appendChild(e);
+    }
+
+    // Copy IP
+    function copyIP() {
+      navigator.clipboard.writeText('play.gofnetwork.online').catch(() => { });
+      const msg = document.getElementById('copiedMsg');
+      msg.classList.add('show');
+      setTimeout(() => msg.classList.remove('show'), 2000);
+    }
+
+    // Scroll reveal
+    const reveals = document.querySelectorAll('.reveal');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry, i) => {
+        if (entry.isIntersecting) {
+          setTimeout(() => entry.target.classList.add('visible'), i * 80);
+        }
+      });
+    }, { threshold: 0.1 });
+    reveals.forEach(el => observer.observe(el));
+  </script>
+</body>
+
+</html>
