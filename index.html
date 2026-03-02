@@ -12,7 +12,6 @@
 </head>
 
 <body>
-
   <!-- NAV -->
   <nav>
     <a href="https://gofnetwork.online">
@@ -44,6 +43,7 @@
       <a href="#vote" class="btn btn-outline">Vote for Us</a>
       <a href="https://dsc.gg/gofnetwork" target="_blank" class="btn btn-discord">Join Discord</a>
     </div>
+    <button id="soundToggle" onclick="toggleFireSound()" class="sound-toggle">🔇 Sound Off</button>
   </section>
 
   <div class="divider"></div>
@@ -281,6 +281,7 @@
     }, { threshold: 0.1 });
     reveals.forEach(el => observer.observe(el));
   </script>
+  <script src="audioscript.js"></script>
 </body>
 
 </html>
